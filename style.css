@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: url("./pexels-photo-3729557.jpeg");
+  background-size: 100%;
+  position: relative;
+}
+
+.main > h1 {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-55%, -55%);
+}
+form > input {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  width: 30%;
+  height: 30px;
+  border-radius: 10px;
+  transform: translate(-55%, -55%);
+  text-align: center;
+}
+form > button {
+  position: absolute;
+  left: 50%;
+  top: 23%;
+  transform: translate(-55%, -55%);
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+.output {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-55%, -55%);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 450px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+: 0;
+}
