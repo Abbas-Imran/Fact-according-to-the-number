@@ -4,7 +4,7 @@ document.getElementById("submit").addEventListener("click", async function () {
     document.getElementsByClassName("output")[0].innerHTML = "Enter a number first";
   }
   else {
-  const link = `http://numbersapi.com/${num}`;
+  const link = `http://numbersapi.com/${num}/math`;
   try {
     let fetchRes = await fetch(link);
     const data = await fetchRes.text();
